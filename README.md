@@ -7,7 +7,7 @@ movingObjectsInTheBrowser - HTML File
 
 II. Concept
 ----------
-This HTML file contains HTML code to create an object (a square) and Javascript in order to move the object around in the browser.
+This HTML file contains HTML code to create an object (in this case a square) and Javascript code in order to define an area and move the object around in that specified area within the browser window.  To execute the code, all you have to do is drag and drop the HTML file into an empty browser window.
 
 III. Future Improvements
 ----------
