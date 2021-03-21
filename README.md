@@ -4,6 +4,7 @@ Week2: Computational Thinking
 I. File list
 ------------
 movingObjectsInTheBrowser - HTML File
+
 movingObjectsInTheBrwoser_randomColors - HTML File
 
 II. Concept
