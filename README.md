@@ -11,7 +11,7 @@ II. Concept
 ----------
 The HTML file movingObjectsInTheBrowser creates an object (in this case a square) and uses Javascript code in order to define an area and move the object around in that specified area within the browser window.  To execute the code, all you have to do is drag and drop the HTML file into an empty browser window.
 
-The HTML file movingObjectsInTheBrowser_randomColors creates an object (in this case a square) and uses Javascript code in order to define an area and move the object around in that specified area within the browser window.  I have defined a variable in JavaScript (var randomColors = [];) and assigned a random array of colors to this variable so that the color of the object will constantly change.  To execute the code, all you have to do is drag and drop the HTML file into an empty browser window.
+The HTML file movingObjectsInTheBrowser_randomColors creates an object (in this case a square) and uses Javascript code in order to define an area and move the object around in that specified area within the browser window.  I have defined a variable in JavaScript (var randomColors = [ ];) and assigned a random array of colors to this variable so that the color of the object will constantly change.  To execute the code, all you have to do is drag and drop the HTML file into an empty browser window.
 
 
 III. Future Improvements
