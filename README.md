@@ -3,16 +3,15 @@ Week2: Computational Thinking
 
 I. File list
 ------------
-VS Code Setup and Command Line Guide-  Microsoft Word Document
+movingObjectsInTheBrowser - HTML File
 
 II. Concept
 ----------
-This document lays out how to get started with VS code; a tool that provides developers a code editor to work with as they begin coding.
-Also covered are basic command line syntax and some common command line code to get you started on your journey. 
+This HTML file contains HTML code to create an object (a square) and Javascript in order to move the object around in the browser.
 
 III. Future Improvements
 ----------
-Expansion of the VS code section to include a demo of VS Code in action. Using VS Code and GIT command line as your one stop shop for coding.
+Expansion of the HTML and JavaScript code to produce multiple objects all moving at the same time within the browser.
 
 IV.  License
 ----------
