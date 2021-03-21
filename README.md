@@ -4,14 +4,18 @@ Week2: Computational Thinking
 I. File list
 ------------
 movingObjectsInTheBrowser - HTML File
+movingObjectsInTheBrwoser_randomColors - HTML File
 
 II. Concept
 ----------
-This HTML file contains HTML code to create an object (in this case a square) and Javascript code in order to define an area and move the object around in that specified area within the browser window.  To execute the code, all you have to do is drag and drop the HTML file into an empty browser window.
+The HTML file movingObjectsInTheBrowser creates an object (in this case a square) and uses Javascript code in order to define an area and move the object around in that specified area within the browser window.  To execute the code, all you have to do is drag and drop the HTML file into an empty browser window.
+
+The HTML file movingObjectsInTheBrowser_randomColors creates an object (in this case a square) and uses Javascript code in order to define an area and move the object around in that specified area within the browser window.  If have defined a variable in JavaScript (var randomColors = [];) and assigned a random array of colors so that the color of the object will constantly change.  To execute the code, all you have to do is drag and drop the HTML file into an empty browser window.
+
 
 III. Future Improvements
 ----------
-Expansion of the HTML and JavaScript code to produce multiple objects all moving at the same time within the browser.
+Expansion of the HTML and JavaScript code to produce multiple objects all moving around at the same time within the browser.
 
 IV.  License
 ----------
