@@ -1,0 +1,56 @@
+<div id="ball" style="
+  z-index:5;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width: 75px;
+  height: 75px;
+  border: radius 75px;
+  background:rgb(17, 0, 255)"></div>
+
+<script>
+//Global variables that contains the position, velocity and html elements.
+var positionX = 10;
+var positionY = 10;
+var velocityX = 1;
+var velocityY = 2;
+
+var Xmin = 10;
+var Xmax = 410;
+var Ymin = 10;
+var Ymax = 510;
+
+var reverseX = false;
+var reverseY = false;
+var ball = document.getElementById('ball');
+var randomColors = ["green", "blue", "yellow", "red", "orange", "indigo", "violet"]
+
+//Function that can change the positon of the html element.
+function movetheBall() {
+    if (reverseX) {
+        positionX = positionX - velocityX;
+    } else {
+        positionX = positionX + velocityX;
+    }
+
+    if (reverseY) {
+        positionY = positionY - velocityY;
+    } else {
+        positionY = positionY + velocityY;
+    }
+
+    if (positionX <= 0 || positionX >= Xmax) {
+        reverseX = !reverseX;
+    ball.style.backgroundColor = randomColors[Math.floor(Math.random()*randomColors.length)];
+    }
+    if (positionY <= 0 || positionY >= Ymax) {
+        reverseY = !reverseY;
+    ball.style.backgroundColor = randomColors[Math.floor(Math.random()*randomColors.length)];
+    }
+
+    ball.style.top = positionY +'px';
+    ball.style.left = positionX + 'px';
+}
+setInterval(movetheBall, 10);
+
+</script>
